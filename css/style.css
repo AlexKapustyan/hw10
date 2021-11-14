@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik&display=swap");
+* {
+  position: relative;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  list-style: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: default;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+}
+
+input,
+textarea {
+  cursor: text;
+}
+
+a,
+a *,
+button,
+input[type="range"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+iframe,
+a,
+img,
+form,
+label,
+ul,
+ol {
+  display: block;
+}
+
+section {
+  margin-top: 10%;
+}
+
+section .content {
+  margin: auto;
+  max-width: 56.25rem;
+}
+
+section .tab {
+  overflow: hidden;
+}
+
+section .tab button {
+  width: 33%;
+  background-color: #96dd9c;
+  padding: 0.9375rem 1.25rem;
+  border-top-left-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
+  color: white;
+  font-size: 0.875rem;
+}
+
+section .tab button:hover {
+  background-color: #39b45e;
+}
+
+section .tab button.active {
+  background-color: #39b45e;
+}
+
+section .tabcontent {
+  display: none;
+}
+
+section .active-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .inner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+section img {
+  width: 25%;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+section .product-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 20px;
+  margin-top: 4rem;
+}
+
+section .product-inner div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .product-inner div p {
+  font-size: 0.875rem;
+}
+
+section .product-inner div p:first-child {
+  margin-right: 0.4rem;
+}
+
+section .product-inner div div:nth-child(2) {
+  color: #848d95;
+  font-size: 0.875rem;
+}
+
+section .product-inner div p:last-child {
+  color: #848d95;
+}
+
+section .product-inner .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .product-inner .number button {
+  padding: 0;
+  background-color: white;
+  color: #848d95;
+  font-size: 1.4rem;
+}
+
+section .product-inner .number input {
+  width: 30px;
+  text-align: center;
+  padding: 0px 5px 0 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #fafafa;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+section .sum {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.875rem;
+}
+
+section .sum p:last-child {
+  color: #848d95;
+}
+
+section #total-price {
+  margin-left: 0.4rem;
+  color: #848d95;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section #contacts {
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+
+section #contacts h2 {
+  margin-top: 0.935rem;
+}
+
+section #contacts form {
+  margin-top: 1.4rem;
+}
+
+section #contacts label {
+  font-size: 1.3rem;
+  color: #848d95;
+  margin-top: 0.3rem;
+}
+
+section #contacts input {
+  width: 100%;
+  line-height: 2.5;
+  font-size: 0.875rem;
+  color: black;
+  border-bottom: 2px solid #e6e6e6;
+  margin-bottom: 0.3rem;
+}
+
+section #contacts ::-webkit-input-placeholder {
+  color: black;
+}
+
+section #contacts ::-moz-placeholder {
+  color: black;
+}
+
+section #contacts :-moz-placeholder {
+  color: black;
+}
+
+section #contacts :-ms-input-placeholder {
+  color: black;
+}
+
+section #info .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+section #info .inner .inner-info {
+  width: 50%;
+  border-right: 1px solid #f4f4f4;
+}
+
+section #info .inner .inner-info h2 {
+  margin-top: 0.935rem;
+}
+
+section #info .inner .inner-info img {
+  width: 42%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+section #info .inner .inner-info div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+section #info .inner .inner-info div p {
+  font-size: 1rem;
+  border-color: black;
+}
+
+section #info .inner .inner-info div p:nth-child(2) {
+  color: #848d95;
+  margin-left: 0.3rem;
+}
+
+section #info .inner .inner-info div p:last-child {
+  color: #848d95;
+}
+
+section #info .inner .contact_info {
+  width: 48%;
+  padding-right: 1rem;
+}
+
+section #info .inner .contact_info h2 {
+  margin-bottom: 2rem;
+}
+
+section #info .inner .contact_info div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+section #info .inner .contact_info div p {
+  font-size: 1rem;
+  border-color: black;
+}
+
+section #info .inner .contact_info div p:last-child {
+  color: #848d95;
+  margin-left: 0.3rem;
+}

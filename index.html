@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home work 10</title>
+	<meta name="keywords" content="Home work 10">
+	<meta name="description" content="Home work 10">
+	<link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<section>
+		<div class="content">
+			<div class="tab">
+				<button class="tablinks active">Product</button>
+				<button class="tablinks">Contacts</button>
+				<button class="tablinks">Info</button>
+			</div>
+			<div id="product" class="tabcontent active-tab">
+				<div class="inner">
+					<h2 id="name_product">AirPods Pro</h2>
+					<img src="img/airpods-pro.png" alt="AirPods Pro">
+					<div class="product-inner">
+						<div>
+							<p>Prise:</p>
+							<div id="price">150</div>
+							<p>$</p>
+						</div>
+						<div class="number">
+							<button id="minus-btn" type="button">-</button>
+							<input id="number_products" type="text" name="name" value="1">
+							<button id="plus-btn" type="button">+</button>
+						</div>
+					</div>
+					<div class="sum">
+						<p>Products sum:</p>
+						<div id="total-price">150</div>
+						<p>$</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="contacts" class="tabcontent">
+				<div class="inner">
+					<h2>Shiping form</h2>
+					<form class="modal-content" action="#">
+						<div class="container">
+							<label for="fname">Name</label>
+							<input type="text" id="name" name="firstname" placeholder="User Name">
+
+							<label for="lname">Surname</label>
+							<input type="text" id="surname" name="lastname" placeholder="User Surname">
+
+							<label for="email"><b>Email</b></label>
+							<input type="text" id="mail" placeholder="user.mail.com" name="email" required>
+
+							<label for="phone"><b>Phone</b></label>
+							<input type="tel" id="phon" name="tel" placeholder="8080102934">
+
+							<label for="adres"><i class="adres"></i>Address</label>
+							<input type="text" id="adr" name="address" placeholder="Kharkiv">
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div id="info" class="tabcontent">
+				<div class="inner">
+					<div class="inner-info">
+						<h2>Product Info</h2>
+						<img src="img/airpods-pro.png" alt="AirPods Pro">
+						<div>
+							<p>Name:</p>
+							<p id="info_prod"></p>
+						</div>
+						<div>
+							<p>Quantity:</p>
+							<p id="quantity">1</p>
+						</div>
+						<div>
+							<p>Purchase amount:</p>
+							<p id="purchase_amount">150</p>
+							<p>$</p>
+						</div>
+					</div>
+					<div class="contact_info">
+						<h2>Contact Info</h2>
+						<div>
+							<p>Name:</p>
+							<p id="info_name">User Name</p>
+						</div>
+						<div>
+							<p>Surname:</p>
+							<p id="info_Sname">User Surname</p>
+						</div>
+						<div>
+							<p>Email:</p>
+							<p id="info_email">user.mail.com</p>
+						</div>
+						<div>
+							<p>Phone:</p>
+							<p id="info_phone">8080102934</p>
+						</div>
+						<div>
+							<p>Address:</p>
+							<p id="info_addres">Kharkiv</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<script src="js/my.js"></script>
+</body>
+
+</html>
